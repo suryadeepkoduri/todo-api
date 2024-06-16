@@ -1,4 +1,4 @@
-package com.suryadeep.todo;
+package com.suryadeep.todo.service;
 
 public class TodoJpaService {
     

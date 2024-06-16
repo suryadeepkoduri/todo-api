@@ -1,4 +1,4 @@
-package com.suryadeep.todo;
+package com.suryadeep.todo.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
