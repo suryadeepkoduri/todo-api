@@ -11,7 +11,7 @@ import com.suryadeep.todo.repository.TodoJpaRepository;
 
 @Service
 public class TodoJpaService {       
-    TodoJpaRepository repository;
+    private final TodoJpaRepository repository;
     
     public TodoJpaService(TodoJpaRepository repository) {
         this.repository = repository;

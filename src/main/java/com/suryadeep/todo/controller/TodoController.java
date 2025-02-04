@@ -16,7 +16,7 @@ import com.suryadeep.todo.service.TodoJpaService;
 @RestController
 public class TodoController {
 
-    TodoJpaService service;
+    private final TodoJpaService service;
 
     public TodoController(TodoJpaService service) {
         this.service = service;

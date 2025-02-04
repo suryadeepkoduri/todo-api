@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.suryadeep</groupId>
-	<artifactId>todo-assigned</artifactId>
+	<artifactId>todo-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>todo-assigned</name>
 	<description>Demo project for Spring Boot</description>
@@ -47,6 +47,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>annotationProcessor</scope>
 		</dependency>
 	</dependencies>
 
